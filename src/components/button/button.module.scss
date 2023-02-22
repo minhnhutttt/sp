@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    a {
+        position: relative;
+        height: 138px;
+        display: flex;
+        align-items: center;
+        padding-right: 100px;
+        @media screen and (max-width: 768px) {
+            height: 105px;
+            padding-right: 80px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 131px;
+            height: 138px;
+            background-image: url(../../images/arrow.png);
+            background-size: cover;
+            @media screen and (max-width: 768px) {
+                width: 100px;
+                height: 105px;
+            }
+        }
+    }
+    span {
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 0.07em;
+    }
+}

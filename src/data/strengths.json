@@ -1,0 +1,42 @@
+[
+    {
+        "id": "01",
+        "image": "../images/01.png",
+        "description": "We specialize in blockchain technology and provide a wide range of blockchain-related services, including blockchain scanning services and blockchain application development."
+    },
+    {
+        "id": "02",
+        "image": "../images/02.png",
+        "description": "We provide a wide range of blockchain-related services, including blockchain scanning services and blockchain application development."
+    },
+    {
+        "id": "03",
+        "image": "../images/03.png",
+        "description": "We are committed to customer satisfaction and provide reliable services."
+    },
+    {
+        "id": "04",
+        "image": "../images/04.png",
+        "description": "We provide highly customized services in order to provide solutions that meet the needs of our customers."
+    },
+    {
+        "id": "05",
+        "image": "../images/05.png",
+        "description": "After-sales support: We provide after-sales support services to help our clients optimize their use of our services."
+    },
+    {
+        "id": "06",
+        "image": "../images/06.png",
+        "description": "We have a team of professionals skilled in blockchain technology who can provide you with the right advice and recommendations to meet your needs."
+    },
+    {
+        "id": "07",
+        "image": "../images/07.png",
+        "description": "We have a team of professionals who are skilled in blockchain technology and can provide you with the right advice and recommendations to meet your needs."
+    },
+    {
+        "id": "08",
+        "image": "../images/08.png",
+        "description": "We are also able to provide our clients with the right advice and proposals to meet their needs."
+    }
+]

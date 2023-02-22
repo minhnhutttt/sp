@@ -1,0 +1,47 @@
+.support {
+    padding: 0 20px 130px;
+    overflow: hidden;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 40px;
+    }
+    &-wrap {
+        width: 100%;
+        max-width: 1640px;
+        margin: 0 auto;
+    }
+    &-ttl {
+        color: #fff;
+        font-size: 48px;
+        font-weight: bold;
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
+    }
+    &-txt {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 25px;
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    }
+    &-items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 65px -31px;
+        @media screen and (max-width: 768px) {
+            margin: 40px -10px;
+        }
+    }
+    &-item {
+        width: 33.33333%;
+        padding: 0 31px;
+        margin-bottom: 55px;
+        @media screen and (max-width: 768px) {
+            width: 50%;
+            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+    }
+}
