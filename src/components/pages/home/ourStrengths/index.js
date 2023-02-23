@@ -35,7 +35,7 @@ const OurStrengths = () => {
                     <div className={styles.strengthContentList}>
                         {data.allStrengthsJson.edges.map((item, index) => {
                         return (
-                            <OurStrengthsItem key={index} image={item.node.image.childImageSharp.fluid} text={item.node.description} />
+                            <OurStrengthsItem key={index} imageSrc={item.node.image.childImageSharp.fluid} text={item.node.description} />
                         )
                     })}
                     </div>

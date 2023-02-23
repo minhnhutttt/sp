@@ -20,11 +20,11 @@ const ServiceItem = ({imageSrc, text}) => {
     )
 }
 ServiceItem.propTypes = {
-    imageSrc: PropTypes.string,
+    imageSrc: PropTypes.object,
     text: PropTypes.string
 }
 ServiceItem.defaultProps  = {
-    imageSrc: "/",
+    imageSrc: {},
     text: ''
 }
 export default ServiceItem

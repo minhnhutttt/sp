@@ -1,0 +1,32 @@
+[
+    {
+        "id": "01",
+        "image": "../images/diver-01.png",
+        "title": "Multilingual support",
+        "description": "The scan service is available in multiple languages, allowing customers to use the service in the language they are most comfortable with."
+    },
+    {
+        "id": "02",
+        "image": "../images/diver-02.png",
+        "title": "Highly accurate analysis",
+        "description": "The scan service can analyze transaction data on the blockchain with high accuracy, providing a clear understanding of market trends and transaction patterns."
+    },
+    {
+        "id": "03",
+        "image": "../images/diver-03.png",
+        "title": "Visualization",
+        "description": "The scan service can display the results of the analysis using visualization tools such as graphs and charts, allowing you to intuitively understand the data."
+    },
+    {
+        "id": "04",
+        "image": "../images/diver-04.png",
+        "title": "API connectivity",
+        "description": "The scan service supports API connectivity, allowing integration with other applications and services."
+    },
+    {
+        "id": "05",
+        "image": "../images/diver-05.png",
+        "title": "Security",
+        "description": "The scan service has a high level of security to ensure that your privacy and security are taken into consideration."
+    }
+]

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,6 +45,9 @@ table {
 }
 a {
     text-decoration: none;
+}
+html {
+	font-family: 'Roboto', sans-serif;
 }
 body {
     font-family: 'Roboto', sans-serif;

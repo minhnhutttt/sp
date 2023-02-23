@@ -36,13 +36,13 @@ const Footer = () => (
                     </p>
                 </div>
                 <div className={styles.footerItem}>
-                    <p className={styles.footerItemTtl}><StaticImage src="../../images/ic-mail.png" alt="" />Contact</p>
+                    <div className={styles.footerItemTtl}><StaticImage src="../../images/ic-mail.png" alt="" />Contact</div>
                     <p className={styles.footerItemTxt}>
                     Privacy policy
                     </p>
                 </div>
             </div>
-            <p className={styles.footerCopyright}>Copyright © 2023 Sky protocol All rights reserved.</p>
+            <div className={styles.footerCopyright}>Copyright © 2023 Sky protocol All rights reserved.</div>
         </div>
     </footer>
 )
