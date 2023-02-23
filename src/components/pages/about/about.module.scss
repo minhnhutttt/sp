@@ -6,7 +6,8 @@
         margin: 0 auto;
         padding: 130px 20px 100px;
         @media screen and (max-width: 768px) {
-            padding: 60px 20px 40px
+            padding: 60px 20px 40px;
+            max-width: 480px;
         }
         &-ttl {
             color: #fff;
@@ -60,14 +61,14 @@
             gap: 80px;
             @media screen and (max-width: 768px) {
                 width: 100%;
-                gap: 40px;
-                padding: 20px 15px;
+                gap: 20px;
+                padding: 20px 25px;
             }
             &.is-left {
                 align-items: flex-end;
                 padding: 20px 20px 20px 50px;
                 @media screen and (max-width: 768px) {
-                    padding: 20px 15px;
+                    padding: 20px 25px;
                 }
             }
         }

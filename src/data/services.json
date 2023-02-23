@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "image": "../images/service-01.png",
+        "title": "Blockchain platform development",
+        "description": "We develop and provide trading platforms for specific industries and automated contracting systems with smart contracts."
+    },
+    {
+        "id": "02",
+        "image": "../images/service-02.png",
+        "title": "Blockchain Consulting",
+        "description": "We provide advice on how to implement and utilize blockchain technology."
+    },
+    {
+        "id": "03",
+        "image": "../images/service-03.png",
+        "title": "Blockchain Application Development",
+        "description": "Develop decentralized applications (DApp) and applications that enable transactions and payments based on cryptocurrencies and tokens."
+    },
+    {
+        "id": "04",
+        "image": "../images/service-04.png",
+        "title": "Blockchain Security Services",
+        "description": "We provide services to assess the security of blockchain networks and smart contracts, as well as diagnose and fix vulnerabilities."
+    },
+    {
+        "id": "05",
+        "image": "../images/service-05.png",
+        "title": "Blockchain training",
+        "description": "We hold trainings and seminars on blockchain technology to help developers and business people improve their blockchain skills."
+    },
+    {
+        "id": "06",
+        "image": "../images/service-06.png",
+        "title": "Process Flow",
+        "description": "Hearing → Consulting(requirement definition) → Design → Agile Development → Service implementation"
+    }
+]

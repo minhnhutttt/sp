@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const Support = () => {
     const data = useStaticQuery(graphql`
         query SupportQuery {
-        allSupportJson {
+        allHomeSupportJson {
             edges {
             node {
                 id
@@ -28,7 +28,7 @@ const Support = () => {
                 <h5 className={styles.supportTtl}>Technologies We Support</h5>
                 <p className={styles.supportTxt}>We primarily support the following technologies</p>
                 <div className={styles.supportItems}>
-                    {data.allSupportJson.edges.map((item, index) => {
+                    {data.allHomeSupportJson.edges.map((item, index) => {
                         return (
                             <div className={styles.supportItem} key={index}>
                                 <Img fluid={item.node.image.childImageSharp.fluid} layout="fixed" alt="" />

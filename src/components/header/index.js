@@ -42,7 +42,7 @@ const Header = ({hasBg}) => {
         <div className={`${styles.headerInner} ${isOpen ? styles.active : '' }`}>
           <ul className={styles.headerMenu}>
             <li>
-              <Link to={"/"}>
+              <Link to={"/service"}>
                 <span>Service</span>
               </Link>
             </li>

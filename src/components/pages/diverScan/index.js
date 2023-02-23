@@ -1,7 +1,8 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./diverScan.module.scss"
 import DiverScanItem from "./diverScanItem"
+import Button from "../../button"
+import { StaticImage } from "gatsby-plugin-image"
 import { graphql, useStaticQuery } from "gatsby"
 const DiverScan = () => {
     const data = useStaticQuery(graphql`
@@ -10,6 +11,7 @@ const DiverScan = () => {
                 edges {
                     node {
                         id
+                        title
                         description
                         image {
                             childImageSharp {
@@ -37,13 +39,29 @@ const DiverScan = () => {
                     </p>
                 </div>
             </div>
-            <div className={styles.diverItems}>
-                
-                {data.allDiverJson.edges.map((item, index) => {
-                    return (
-                        <DiverScanItem key={index} imageSrc={item.node.image.childImageSharp.fluid} title={item.node.title} text={item.node.description} />
-                    )
-                })}
+            <div className={styles.diverContent}>
+                <div className={styles.diverItems}>
+                    {data.allDiverJson.edges.map((item, index) => {
+                        console.log(item)
+                        return (
+                            <DiverScanItem key={index} imageSrc={item.node.image.childImageSharp.fluid} title={item.node.title} text={item.node.description} />
+                        )
+                    })}
+                </div>
+            </div>
+            <div className={styles.banner}>
+                <div className={styles.bannerWrap}>
+                    <div className={styles.bannerLogo}>
+                        <StaticImage src="../../../images/diver-scan.png" alt="Diver Scan" />
+                    </div>
+                    <div className={styles.bannerTxt}>
+                        <p className={styles.bannerTxt01}>DIVER Scan</p>
+                        <p className={styles.bannerTxt02}>We have developed a blockchain scanning service for DIVER Network.</p>
+                    </div>
+                    <div>
+                        <Button text="Website" />
+                    </div>
+                </div>
             </div>
         </div>
     )

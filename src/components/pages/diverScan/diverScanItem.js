@@ -6,13 +6,11 @@ import PropTypes from "prop-types"
 const DiverScanItem = ({ imageSrc, title, text }) => {
     return (
         <div className={styles.diverItem}>
-            <div className={styles.diverItemWrap}>
+            <div>
                 <div className={styles.diverItemImg}>
-                    <div className={styles.diverItemImgSrc}>
-                        <Img fluid={imageSrc} alt="" />
-                    </div>
+                    <Img fluid={imageSrc} alt="" />
                 </div>
-                <div className={styles.diverItemTxt}>
+                <div className={styles.diverItemTtl}>
                     {title}
                 </div>
                 <div className={styles.diverItemTxt}>

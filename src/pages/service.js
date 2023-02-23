@@ -4,20 +4,20 @@ import Banner from "../components/banner"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
-import DiverScan from "../components/pages/diverScan"
+import Service from "../components/pages/service"
 
 
-const DiverScanPage = ({ data }) => {
+const ServicePage = ({ data }) => {
     return (
         <Layout>
-            <Banner imageSrc={data.file.childImageSharp.fluid.src} text="DIVER Scan" />
-            <DiverScan />
+            <Banner imageSrc={data.file.childImageSharp.fluid.src} text="SERVICE" />
+            <Service />
         </Layout>
     )
 }
 export const query = graphql`
   query {
-      file(relativePath: { eq: "feature-diver.png" }) {
+      file(relativePath: { eq: "feature-service.png" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid
@@ -26,6 +26,6 @@ export const query = graphql`
       }
     }
 `
-export const Head = () => <Seo title="Diver Scan" />
+export const Head = () => <Seo title="Service" />
 
-export default DiverScanPage
+export default ServicePage

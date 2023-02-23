@@ -13,8 +13,8 @@ const Product = () => (
                 <p className={styles.productTxt01}>Product</p>
                 <p className={styles.productTxt02}>We have developed a blockchain scanning service for DIVER Network.</p>
             </div>
-            <div className={styles.productBtn}>
-                <Button text="DIVER Scan" />
+            <div>
+                <Button link="/diver-scan" text="DIVER Scan" />
             </div>
         </div>
     </div>

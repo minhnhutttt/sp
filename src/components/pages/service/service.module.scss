@@ -1,0 +1,102 @@
+.service {
+    font-family: 'Fira Sans', sans-serif;
+    &-head {
+        width: 100%;
+        max-width: 1680px;
+        margin: 0 auto;
+        padding: 130px 20px 100px;
+        @media screen and (max-width: 768px) {
+            padding: 60px 20px 40px;
+            max-width: 480px;
+        }
+        &-ttl {
+            color: #fff;
+            font-size: 42px;
+            line-height: 1.3;
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+            }
+        }
+        &-txt {
+            margin-top: 25px;
+            color: #fff;
+            font-size: 16px;
+            @media screen and (max-width: 768px) {
+                font-size: 13px;
+            }
+        }
+    }
+    &-content {
+        width: 100%;
+        max-width: 1680px;
+        margin: 0 auto;
+        padding: 0 20px;
+        @media screen and (max-width: 768px) {
+            max-width: 480px;
+        }
+    }
+    &-item {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 135px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 50px;
+            flex-direction: column !important;
+        }
+        &:nth-of-type(even) {
+            flex-direction: row-reverse;
+        }
+        &:nth-of-type(even) & {
+            &-main {
+                margin-left: auto;
+                margin-right: -4%;
+                @media screen and (max-width: 768px) {
+                    margin-right: auto;
+                }
+            }
+        }
+        &-img {
+            width: 100%;
+            @media screen and (min-width: 769px) {
+                width: 58%;
+            }
+        }
+        &-main {
+            width: 58%;
+            background-color: rgba(0, 0, 0, 0.8);
+            min-height: 295px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+            margin-bottom: -30px;
+            margin-left: -4%;
+            position: relative;
+            z-index: 2;
+            padding: 20px 30px;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                margin-left: 0;
+                margin-bottom: 0;
+                min-height: auto;
+                padding: 30px 20px;
+            }
+        }
+        &-ttl {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        }
+        &-txt {
+            font-size: 16px;
+            line-height: 1.6;
+            @media screen and (max-width: 768px) {
+                font-size: 13px;
+            }
+        }
+    }
+}

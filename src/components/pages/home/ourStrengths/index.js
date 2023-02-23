@@ -7,7 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const OurStrengths = () => {
     const data = useStaticQuery(graphql`
         query StrengthQuery {
-        allStrengthsJson {
+        allHomeStrengthsJson {
             edges {
             node {
                 id
@@ -33,7 +33,7 @@ const OurStrengths = () => {
                 <div className={styles.strengthContent}>
                     <h5 className={styles.strengthTtl}>Our Strengths</h5>
                     <div className={styles.strengthContentList}>
-                        {data.allStrengthsJson.edges.map((item, index) => {
+                        {data.allHomeStrengthsJson.edges.map((item, index) => {
                         return (
                             <OurStrengthsItem key={index} imageSrc={item.node.image.childImageSharp.fluid} text={item.node.description} />
                         )

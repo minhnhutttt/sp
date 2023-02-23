@@ -6,7 +6,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const Service = () => {
     const data = useStaticQuery(graphql`
         query ServiceQuery {
-        allServiceJson {
+        allHomeServiceJson {
             edges {
             node {
                 id
@@ -28,7 +28,7 @@ const Service = () => {
             <div className={styles.serviceWrap}>
                 <h3 className={styles.serviceTtl}>Service</h3>
                 <div className={styles.serviceContent}>
-                    {data.allServiceJson.edges.map((item, index) => {
+                    {data.allHomeServiceJson.edges.map((item, index) => {
                         return (
                             <ServiceItem key={index} imageSrc={item.node.image.childImageSharp.fluid} text={item.node.text} />
                         )
